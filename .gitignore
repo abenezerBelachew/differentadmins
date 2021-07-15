@@ -1,0 +1,6 @@
+db.sqlite3
+.vscode
+*.pyc
+migrations
+__pycache__/
+__pycache__

@@ -1,0 +1,42 @@
+[
+{
+    "model": "school.advice",
+    "pk": 1,
+    "fields": {
+        "student": [
+            "student1@school.com"
+        ],
+        "advice": "There is help for Math and Physics after school on Thursday. Please attend."
+    }
+},
+{
+    "model": "school.advice",
+    "pk": 2,
+    "fields": {
+        "student": [
+            "student2@school.com"
+        ],
+        "advice": "Teacher 3 is giving extra lessons for Chemistry and Biology after on Friday. Please attend."
+    }
+},
+{
+    "model": "school.advice",
+    "pk": 3,
+    "fields": {
+        "student": [
+            "student3@school.com"
+        ],
+        "advice": "Please talk to your teachers after class to improve your Physics, Math and Chemistry grades."
+    }
+},
+{
+    "model": "school.advice",
+    "pk": 4,
+    "fields": {
+        "student": [
+            "student4@school.com"
+        ],
+        "advice": "Stellar performance. Keep doing what you're doing."
+    }
+}
+]

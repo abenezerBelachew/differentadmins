@@ -1,0 +1,130 @@
+[
+{
+    "model": "accounts.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$9iEmBrkI3Zyy$3GALDV/5ZWI2C2OcI1S+7ONgw/6COnsxw0zV3d2ref8=",
+        "last_login": "2021-07-15T02:34:05.595Z",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-07-13T22:03:29.709Z",
+        "email": "admin@admin.com",
+        "name": "Admin",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$K2l1VYKRvOG6$MNKZAvIBJlCDhWWDwfRfA4fexg4BGTiZoPLn+Gknna0=",
+        "last_login": "2021-07-15T02:23:47.725Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-07-13T22:16:37.811Z",
+        "email": "teacher@school.com",
+        "name": "Teacher",
+        "groups": [
+            [
+                "Teachers"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$smHXprvjL3cq$95k0U9/TMeJHVPiKP7Geb0M7z5mGlQwffYNTGXG7hbs=",
+        "last_login": "2021-07-14T00:01:55.196Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-07-13T22:16:57.069Z",
+        "email": "counselor@school.com",
+        "name": "Counselor",
+        "groups": [
+            [
+                "Counselors"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$19PE9Im5Ri2o$c67OMUDd8p1O9dX7vCNkfJytLxRPRoYUlxRU9c9TmCI=",
+        "last_login": "2021-07-13T23:40:04.351Z",
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-07-13T22:17:30.313Z",
+        "email": "headmaster@school.com",
+        "name": "Headmaster",
+        "groups": [
+            [
+                "Headmaster"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$Ot4HRvEAkuIc$mO0gBYlIQOyKj7HaCQGKmF2cbQLIaeTRIAspzmxo4f4=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-07-13T23:19:13.054Z",
+        "email": "student1@school.com",
+        "name": "Student 1",
+        "groups": [
+            [
+                "Students"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$t5Z3oekYreNv$LhBf9j2/WkwyLdDj8os0eC69/ug+++9a76p2GDKjeTc=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-07-13T23:19:34.962Z",
+        "email": "student2@school.com",
+        "name": "Student 2",
+        "groups": [
+            [
+                "Students"
+            ]
+        ],
+        "user_permissions": []
+    }
+}
+]

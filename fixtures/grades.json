@@ -1,0 +1,178 @@
+[
+{
+    "model": "school.grade",
+    "pk": 1,
+    "fields": {
+        "student": [
+            "student1@school.com"
+        ],
+        "subject": 1,
+        "grade": "C"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 2,
+    "fields": {
+        "student": [
+            "student2@school.com"
+        ],
+        "subject": 1,
+        "grade": "A"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 3,
+    "fields": {
+        "student": [
+            "student3@school.com"
+        ],
+        "subject": 3,
+        "grade": "B"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 4,
+    "fields": {
+        "student": [
+            "student4@school.com"
+        ],
+        "subject": 3,
+        "grade": "A"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 5,
+    "fields": {
+        "student": [
+            "student1@school.com"
+        ],
+        "subject": 3,
+        "grade": "A"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 6,
+    "fields": {
+        "student": [
+            "student2@school.com"
+        ],
+        "subject": 3,
+        "grade": "B"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 7,
+    "fields": {
+        "student": [
+            "student1@school.com"
+        ],
+        "subject": 2,
+        "grade": "B"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 8,
+    "fields": {
+        "student": [
+            "student1@school.com"
+        ],
+        "subject": 4,
+        "grade": "A"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 9,
+    "fields": {
+        "student": [
+            "student2@school.com"
+        ],
+        "subject": 2,
+        "grade": "A"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 10,
+    "fields": {
+        "student": [
+            "student2@school.com"
+        ],
+        "subject": 4,
+        "grade": "C"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 11,
+    "fields": {
+        "student": [
+            "student3@school.com"
+        ],
+        "subject": 1,
+        "grade": "B"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 12,
+    "fields": {
+        "student": [
+            "student3@school.com"
+        ],
+        "subject": 2,
+        "grade": "B"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 13,
+    "fields": {
+        "student": [
+            "student3@school.com"
+        ],
+        "subject": 4,
+        "grade": "A"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 14,
+    "fields": {
+        "student": [
+            "student4@school.com"
+        ],
+        "subject": 1,
+        "grade": "A"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 15,
+    "fields": {
+        "student": [
+            "student4@school.com"
+        ],
+        "subject": 2,
+        "grade": "A"
+    }
+},
+{
+    "model": "school.grade",
+    "pk": 16,
+    "fields": {
+        "student": [
+            "student4@school.com"
+        ],
+        "subject": 4,
+        "grade": "A"
+    }
+}
+]

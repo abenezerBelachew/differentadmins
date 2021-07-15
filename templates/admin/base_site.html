@@ -1,0 +1,35 @@
+{% extends "admin/base.html" %}
+
+{% block title %}
+  {{ title }} | {{ site_title|default:_('Django site admin') }}
+{% endblock %}
+
+{% block extrastyle %}
+  <style type="text/css" media="screen">
+  
+    #header {
+      background: {{ site_header_color|default:"#417690"}};
+    }
+    .module caption {
+      background: {{module_caption_color|default:"#79aec8"}};
+    }
+    div.breadcrumbs {
+      background: {{ breadcrumb_background_color|default:"#79aec8"}};
+    }
+  
+  </style>
+{% endblock extrastyle %}
+
+{% block branding %}
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <h1 id="site-name">
+  {% comment %} <img src="https://images.unsplash.com/photo-1512238972088-8acb84db0771?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y291bnNlbG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
+  style="height:50px; width:50px;"> {% endcomment %}
+  <i class="{{ fontawesome_icon }}"></i>
+    <a href="{% url 'admin:index' %}">
+      {{ site_header|default:"Django Administration" }}
+    </a>
+  </h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

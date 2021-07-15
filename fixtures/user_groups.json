@@ -1,0 +1,152 @@
+[
+{
+    "model": "auth.group",
+    "pk": 5,
+    "fields": {
+        "name": "Counselors",
+        "permissions": [
+            [
+                "view_customuser",
+                "accounts",
+                "customuser"
+            ],
+            [
+                "add_advice",
+                "school",
+                "advice"
+            ],
+            [
+                "change_advice",
+                "school",
+                "advice"
+            ],
+            [
+                "delete_advice",
+                "school",
+                "advice"
+            ],
+            [
+                "view_advice",
+                "school",
+                "advice"
+            ],
+            [
+                "view_grade",
+                "school",
+                "grade"
+            ],
+            [
+                "view_subject",
+                "school",
+                "subject"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 6,
+    "fields": {
+        "name": "Headmaster",
+        "permissions": [
+            [
+                "view_customuser",
+                "accounts",
+                "customuser"
+            ],
+            [
+                "view_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "view_group",
+                "auth",
+                "group"
+            ],
+            [
+                "view_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "view_advice",
+                "school",
+                "advice"
+            ],
+            [
+                "view_grade",
+                "school",
+                "grade"
+            ],
+            [
+                "add_subject",
+                "school",
+                "subject"
+            ],
+            [
+                "change_subject",
+                "school",
+                "subject"
+            ],
+            [
+                "delete_subject",
+                "school",
+                "subject"
+            ],
+            [
+                "view_subject",
+                "school",
+                "subject"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 7,
+    "fields": {
+        "name": "Teachers",
+        "permissions": [
+            [
+                "view_advice",
+                "school",
+                "advice"
+            ],
+            [
+                "add_grade",
+                "school",
+                "grade"
+            ],
+            [
+                "change_grade",
+                "school",
+                "grade"
+            ],
+            [
+                "delete_grade",
+                "school",
+                "grade"
+            ],
+            [
+                "view_grade",
+                "school",
+                "grade"
+            ],
+            [
+                "view_subject",
+                "school",
+                "subject"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 8,
+    "fields": {
+        "name": "Students",
+        "permissions": []
+    }
+}
+]
