@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$216000$9iEmBrkI3Zyy$3GALDV/5ZWI2C2OcI1S+7ONgw/6COnsxw0zV3d2ref8=",
-        "last_login": "2021-07-15T02:34:05.595Z",
+        "last_login": "2021-07-15T20:46:48.003Z",
         "is_superuser": true,
         "first_name": "",
         "last_name": "",
@@ -119,6 +119,50 @@
         "date_joined": "2021-07-13T23:19:34.962Z",
         "email": "student2@school.com",
         "name": "Student 2",
+        "groups": [
+            [
+                "Students"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$eW4o6QKdjdmb$7lQJFNvfUdg/FCcIH3LnDVyNCDh06mdoW8LmLy3W0Tc=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-07-15T05:27:50.238Z",
+        "email": "student3@school.com",
+        "name": "Student 3",
+        "groups": [
+            [
+                "Students"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$Fdvk1b3xHXYT$BD6Q3gOajUt2XV9ZI6JDvG6PcqUgJfdjuvg5MS/azhw=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-07-15T05:28:12.084Z",
+        "email": "student4@school.com",
+        "name": "Student 4",
         "groups": [
             [
                 "Students"
