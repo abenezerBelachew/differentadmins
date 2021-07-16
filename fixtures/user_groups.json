@@ -6,11 +6,6 @@
         "name": "Counselors",
         "permissions": [
             [
-                "view_customuser",
-                "accounts",
-                "customuser"
-            ],
-            [
                 "add_advice",
                 "school",
                 "advice"
@@ -49,11 +44,6 @@
     "fields": {
         "name": "Headmaster",
         "permissions": [
-            [
-                "view_customuser",
-                "accounts",
-                "customuser"
-            ],
             [
                 "view_logentry",
                 "admin",
