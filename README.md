@@ -1,8 +1,6 @@
 
 # Different Admin Pages for Different Staff Users
 
-## Deployment
-
 ### To run this project
 
 ```bash
