@@ -5,7 +5,6 @@ from django.contrib.admin.models import LogEntry
 from .models import Advice, Grade, Subject
 
 from accounts.admin import LogEntryAdmin
-from accounts.models import CustomUser
 
 
 class GradeAdmin(admin.ModelAdmin):
@@ -83,9 +82,6 @@ class CounselorsAdminSite(ColoredAdminSite):
 counselor_admin_site = CounselorsAdminSite(name="counselors_admin")
 counselor_admin_site.register(Advice, AdviceAdmin)
 counselor_admin_site.register(Grade, GradeAdmin)
-
-
-
 
 class HeadmasterAdminSite(ColoredAdminSite):
     if settings.DEBUG == True:
