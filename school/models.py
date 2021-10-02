@@ -36,5 +36,5 @@ class Advice(models.Model):
     advice = models.TextField(max_length=240)
 
     def __str__(self):
-        return self.student.name
+        return f"Advice for {self.student.name}"
     
