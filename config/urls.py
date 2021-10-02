@@ -15,17 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.views.generic import TemplateView
-
-from school.admin import teacher_admin_site, counselor_admin_site, headmaster_admin_site
 
 urlpatterns = [
-    path('', TemplateView.as_view(
-        template_name="home.html"
-    ), name="home"),
     path('admin/', admin.site.urls),
-    path("teachers-admin/", teacher_admin_site.urls),
-    path("counselors-admin/", counselor_admin_site.urls),
-    path("headmaster-admin/", headmaster_admin_site.urls),
 
 ]
